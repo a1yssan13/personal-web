@@ -1,0 +1,45 @@
+
+#layer :hover {
+    width: 150%;
+    animation: none;
+    transform: translatey(-20%);
+    stroke: darkslateblue;
+}
+
+.letter {
+    stroke: "#2222a6";
+    animation: shake 2s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes wiggle{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(2deg);
+    }
+}
+@keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    25% {
+      transform: translate(-3px, 0px) rotate(-10deg);
+    }
+
+    50% {
+      transform: translate(1px, -1px) rotate(0deg);
+    }
+
+    75% {
+      transform: translate(-3px, 1px) rotate(10deg);
+    }
+
+    100% {
+      transform: translate(1px, -2px) rotate(0deg);
+    }
+  }

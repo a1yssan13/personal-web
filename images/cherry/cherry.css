@@ -1,0 +1,140 @@
+.letter{
+    position:relative;
+    top:-50px;
+    width:100%;
+}
+.a {
+    transform-origin: 80% 40%;
+    animation: falling 10s 4s infinite;
+}
+.b {
+    transform-origin: 20% -90%;
+    animation: falling2 9s 9s infinite;
+}
+.c {
+    
+}
+.d {
+    transform-origin: 60% 40%;
+    animation: falling1 8s 2s infinite;
+
+}
+.e {
+    transform-origin: 80% 50%;
+    animation: lightmid 18s 8s infinite;
+    
+}
+.f {
+    transform-origin: 60% 30%;
+    animation: falling 7s 10s infinite;
+}
+.g {
+    transform-origin: 110% 10%;
+    animation: falling2 18s 4s infinite;
+}
+.h {
+    transform-origin: 50% 50%;
+    animation: falling1 15s 8s infinite;
+
+}
+.i {
+    transform-origin: 80% 10%;
+    animation: falling1 26s 7s infinite;
+}
+.j {
+    transform-origin: 80% 10%;
+    animation: lightmid 8s 5s infinite;
+}
+.k {
+    transform-origin: 85% 20%;
+    animation: falling1 11s 8s infinite;
+}
+.l {
+    transform-origin: 100% 30%;
+    animation: falling3 16s 10s infinite;
+}
+.m {
+    transform-origin: 60% 30%;
+    animation: lightmid 9s 10s infinite;
+}
+.n {
+    transform-origin: 100% 20%;
+    animation: falling2 12s 11s infinite;
+}
+
+
+@keyframes lightmid {
+    0% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(20deg);
+        opacity: 1;
+    }
+    
+    100% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(-30deg);
+        opacity: 1;
+    }
+}
+
+@keyframes falling {
+    0% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(50deg);
+        opacity: 1;
+    }
+    
+    100% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(-40deg);
+        opacity: 1;
+    }
+}
+@keyframes falling1 {
+    0% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(50deg);
+        opacity: 1;
+    }
+    
+    100% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(-25deg);
+        opacity: 1;
+    }
+}
+
+@keyframes falling2 {
+    0% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(0deg);
+    }
+    100% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(-20deg)
+            scale(1.5,1.5)
+    }
+}
+
+
+
+@keyframes falling3 {
+    0% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(0deg);
+    }
+    100% {
+        -webkit-transform:
+            translate3d(0,0,0)
+            rotate(-20deg)
+    }
+}
