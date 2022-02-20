@@ -3,6 +3,7 @@
     top:-50px;
     width:100%;
 }
+
 .a {
     transform-origin: 80% 40%;
     animation: falling 10s 4s infinite;
@@ -12,7 +13,8 @@
     animation: falling2 9s 9s infinite;
 }
 .c {
-    
+    transform-origin: 100% 70%;
+    animation: lightmid 12s 8s infinite;
 }
 .d {
     transform-origin: 60% 40%;

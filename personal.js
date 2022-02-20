@@ -84,7 +84,7 @@ function addBlog() {
     heading.textContent = "blog:"
     let body = document.createElement('div');
     body.setAttribute("class", "body");
-    body.textContent = "This is currently a WIP. Check [insert link to blog] for old!";
+    body.textContent = "Currently still not updated/work in process. Check [insert link to blog] for old!";
     blog.appendChild(heading); 
     blog.appendChild(body); 
     desktop.appendChild(blog); 
@@ -100,10 +100,6 @@ function backHome() {
     if (!cherry) {
         desktop.appendChild(originalCherry);
     }
-}
-
-function replaceIcon(currIcon, clickIcon) {
-
 }
 
 function clearScreen() {
